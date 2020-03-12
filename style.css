@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #19223B;
+}
+
+#città {
+    margin-left:25%;
+    margin-top: 3%;
+    width: 14%;
+}
+
+.torino {
+    top: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://lh3.googleusercontent.com/proxy/JKWynQXEowdmx1rZUonkes4jj5xXMCKbnJiMpu_KKYwC8ONMUBUma8toTzskDYRZZySzxf5UQO9bpnazAO_crAsRwEsLYEYn2uZoLy-GkEpPQdmPl2IOzn8);
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    position: relative;
+    z-index: 2;
+}
+
+.milano {
+    top: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://manoxmano.it/milano/wp-content/uploads/2015/11/duomo-di-milano.jpg);
+    background-size: cover;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    position: relative;
+    z-index: 2;
+}
+
+.napoli {
+    top: 50px;
+    width: 250px;
+    height: 250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBU8jwpv2vy4EbC833ZeARDaTjTbjzi4wnxlJgxCQR5-0M3shq);
+    background-size: cover;
+    border: 5px solid white;
+    position: relative;
+    z-index: 2;
+}
+
+.opaco1 {
+    top: 112px;
+    left: 485px;
+    width: 240px;
+    height: 245px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 3;
+}
+
+.opaco2 {
+    top: 363px;
+    left: 485px;
+    width: 240px;
+    height: 245px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 3;
+}
+
+.opaco3 {
+    top: 612px;
+    left: 485px;
+    width: 240px;
+    height: 242px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 3;
+}
+
+.opaco1 h2 {
+    color: white;
+    position: absolute;
+    top: 50% ;
+    left: 30% ;
+}
+
+.opaco2 h2 {
+    color: white;
+    position: absolute;
+    top:50% ;
+    left:30% ;
+}
+
+.opaco3 h2 {
+    color: white;
+    position: relative;
+    top: 50% ;
+    left: 30% ;
+}
